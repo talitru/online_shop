@@ -1,4 +1,0 @@
-# portfolioProcjects
-
-
-SOME PROJECT TO EXTEND MY PORTFOLIO

@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
   const products  = adminData.products;
-  res.render('shop', {prods: products, docTitle: 'shop'});// look for rendering .pug files in views folder wich defined in app.set(...)
+  res.render('shop', {prods: products, pageTitle: 'shop', path: '/'});// look for rendering .pug files in views folder wich defined in app.set(...)
 });
 
 
