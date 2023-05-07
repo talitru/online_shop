@@ -1,13 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const rootDir = require('../util/path');
 
 const p = path.join(
-  rootDir,
+  path.dirname(process.mainModule.filename),
   'data',
   'cart.json'
 );
-
 
 module.exports = class Cart {
   static addProduct(id, productPrice) {
